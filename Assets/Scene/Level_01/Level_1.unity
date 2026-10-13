@@ -855,7 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-  m_RenderShadows: 1
+  m_RenderShadows: 0
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
@@ -954,8 +954,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65756360}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18697415, y: -0.28763244, z: 0.057361502, w: 0.9375596}
-  m_LocalPosition: {x: 1.76, y: 7.07, z: -16.250002}
+  m_LocalRotation: {x: 0.08901778, y: 0.019587912, z: -0.0017509637, w: 0.9958359}
+  m_LocalPosition: {x: 101.80347, y: 1.831987, z: -15.522643}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16210,9 +16210,9 @@ MonoBehaviour:
         z: 4.331698
       Rotation:
         value:
-          x: -0.023326568
+          x: -0.023326566
           y: 0.68248135
-          z: 0.056594398
+          z: 0.05659441
           w: 0.72833514
     - Position:
         x: 714.9241
@@ -16228,9 +16228,9 @@ MonoBehaviour:
         z: 2.1085196
       Rotation:
         value:
-          x: -0.014329176
+          x: -0.014329139
           y: 0.7988282
-          z: 0.36699334
+          z: 0.36699337
           w: 0.4764285
     - Position:
         x: 724.79224
@@ -30507,7 +30507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineSplineDolly
   m_SplineSettings:
     Spline: {fileID: 1090854234}
-    Position: 0
+    Position: 103.730286
     Units: 0
   SplineOffset: {x: 0, y: 0, z: 0}
   CameraRotation: 0
@@ -30582,8 +30582,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760746732}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18697412, y: -0.28763235, z: 0.057361484, w: 0.9375596}
-  m_LocalPosition: {x: 1.76, y: 7.07, z: -16.250002}
+  m_LocalRotation: {x: 0.089017786, y: 0.01958791, z: -0.0017509634, w: 0.9958359}
+  m_LocalPosition: {x: 101.80347, y: 1.831987, z: -15.522643}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32939,11 +32939,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 843936606834843478, guid: d4c0bf3a9226e504486509f05bf6e156, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.5212555
+      value: 102.19791
       objectReference: {fileID: 0}
     - target: {fileID: 843936606834843478, guid: d4c0bf3a9226e504486509f05bf6e156, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6768837
+      value: 0.024307251
       objectReference: {fileID: 0}
     - target: {fileID: 843936606834843478, guid: d4c0bf3a9226e504486509f05bf6e156, type: 3}
       propertyPath: m_LocalPosition.z
