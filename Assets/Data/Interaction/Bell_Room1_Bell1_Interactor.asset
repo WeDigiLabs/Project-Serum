@@ -17,17 +17,17 @@ MonoBehaviour:
   nodes:
   - id: 4ad1365adf84444d8f0d183637bc2f0b
     kind: 0
-    position: {x: 79.33334, y: 94}
+    position: {x: 79, y: 94}
     duration: 1
     executeHandlerId: 
   - id: e5102221b83a4e77ae54d8366871bdfa
     kind: 2
-    position: {x: 236, y: 121.33333}
+    position: {x: 236, y: 121}
     duration: 0
     executeHandlerId: abec24dbe73b4dd0a0309df25f6c58cf
   - id: 922ef580fe77413385704167faea77e4
     kind: 3
-    position: {x: 398, y: 159.33333}
+    position: {x: 398, y: 159}
     duration: 0
     executeHandlerId: 
   edges:

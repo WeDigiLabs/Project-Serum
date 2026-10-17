@@ -23,31 +23,31 @@ MonoBehaviour:
     ignoreKeys: 
   - id: 934d12d133ac467688bb062883f02ca8
     kind: 2
-    position: {x: 246.66666, y: 261.33334}
+    position: {x: 247, y: 261}
     actionId: 
     conditionKey: Bell1
     ignoreKeys: 
   - id: 20333b9633de40f6bc2f8b17ee26cc32
     kind: 1
-    position: {x: 477.3333, y: 261.33334}
+    position: {x: 477, y: 261}
     actionId: Open1
     conditionKey: 
     ignoreKeys: 
   - id: 579959d1340249f2a6735d076670cbf6
     kind: 2
-    position: {x: 718, y: 261.33334}
+    position: {x: 718, y: 261}
     actionId: 
     conditionKey: Bell2
     ignoreKeys: 
   - id: 3850c29cf8a24ad492a38ec0a1da5618
     kind: 1
-    position: {x: 983.3334, y: 286}
+    position: {x: 983, y: 286}
     actionId: Open2
     conditionKey: 
     ignoreKeys: 
   - id: 2c418ea1c86543bb92561b71de9a568d
     kind: 3
-    position: {x: 1212.6666, y: 524}
+    position: {x: 1213, y: 524}
     actionId: 
     conditionKey: 
     ignoreKeys: 
@@ -59,7 +59,7 @@ MonoBehaviour:
     ignoreKeys: 
   - id: e182f43451844d97b746cbb35aa1c403
     kind: 1
-    position: {x: 940.6666, y: 524}
+    position: {x: 941, y: 524}
     actionId: Close
     conditionKey: 
     ignoreKeys: 
@@ -79,12 +79,12 @@ MonoBehaviour:
   - fromId: 3850c29cf8a24ad492a38ec0a1da5618
     fromPort: 0
     toId: b72728a78c7c49389a261a2140104cca
-  - fromId: 934d12d133ac467688bb062883f02ca8
-    fromPort: 1
-    toId: e182f43451844d97b746cbb35aa1c403
   - fromId: e182f43451844d97b746cbb35aa1c403
     fromPort: 0
     toId: 2c418ea1c86543bb92561b71de9a568d
   - fromId: 579959d1340249f2a6735d076670cbf6
+    fromPort: 1
+    toId: e182f43451844d97b746cbb35aa1c403
+  - fromId: 934d12d133ac467688bb062883f02ca8
     fromPort: 1
     toId: e182f43451844d97b746cbb35aa1c403

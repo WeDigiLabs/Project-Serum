@@ -34,7 +34,7 @@ MonoBehaviour:
     tamilChoiceLabels: []
   - id: 5c8038e77da24bccbc19ea76ae5d4960
     kind: 1
-    position: {x: -94.66666, y: 232.66666}
+    position: {x: -95, y: 233}
     body: 'Strange. So strange. '
     tamilBody: ek;k CUy jpBu;D Vd; ,g;gbyhk; elf;FJ?
     colourPreset: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     tamilChoiceLabels: []
   - id: 091fd01514b34b06b83c4ed7e01ba812
     kind: 1
-    position: {x: 337.33337, y: 174}
+    position: {x: 337, y: 174}
     body: Hostage for evil activities. Sounds so disturbing
     tamilBody: kf;fisg; gzaf; ifjpfshfg; gpbj;Jr; nry;fpwhu;fNs!
     colourPreset: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     tamilChoiceLabels: []
   - id: aab82aa2e87b48b789a217e234bfee9c
     kind: 3
-    position: {x: 664.6667, y: -39.333332}
+    position: {x: 665, y: -39}
     body: 
     tamilBody: 
     colourPreset: 1
