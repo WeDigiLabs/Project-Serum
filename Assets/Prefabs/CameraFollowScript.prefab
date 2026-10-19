@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8971255473635869789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8893897486178876048}
+  - component: {fileID: 3637295043977249836}
+  - component: {fileID: 3401751679399376557}
+  - component: {fileID: 8110629973371516964}
+  m_Layer: 0
+  m_Name: CameraFollowScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8893897486178876048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8971255473635869789}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -227.23239, y: 0.04966, z: -228.00018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3637295043977249836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8971255473635869789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97593c8dc1fa637408645f3a4261b21c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Character.SideScrollerCameraFollow
+  target: {fileID: 0}
+  lookAt: {fileID: 0}
+  dolly: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  followSmoothTime: 0.5
+  lookAtSmoothTime: 3
+--- !u!114 &3401751679399376557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8971255473635869789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e017b291e0b4526b5f2510d5234bd81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraOcclusionHider
+--- !u!114 &8110629973371516964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8971255473635869789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e245b54b9d6d4e06941f853d5a1e6c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Character.PlayerFogArea
+  cameraFollow: {fileID: 3637295043977249836}
+  player: {fileID: 0}
+  followY: 0
+  fixedY: 0
+  limitToPlayerArea: 1
+  centerOffset: {x: 0, y: 22.9, z: 10}
+  widthX: 100
+  heightY: 52.2
+  depthZ: 60
+  edgeFade: 0
+  sampleSpacing: 0.98
+  maxSteps: 20
